@@ -1,0 +1,63 @@
+header{
+    width: 100%;
+    height: 60px;
+    border: 1px solid red;
+    background-color: #3b2632;
+    /* font-weight: bold; */
+    color: wheat;
+}
+#head{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 30px;
+    /* font-weight: bold; */
+    
+}
+#loginbtn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+#main{
+    border: 1px solid red;
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.filter{
+    width: 20%;
+    border: 2px solid black;
+    float: left;
+    margin-left: 113px;
+    
+}
+ul>span{
+    text-align: center;
+    margin-left: 40px;
+}
+.content{
+    height: 600px;
+    float: right;
+    width: 60%;
+    border: 2px solid black;
+}
+.listh{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 100px;
+}
+ul{
+    list-style: circle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer{
+    width: 100%;
+    height: 120px;
+    border: 1px solid green;
+}
+

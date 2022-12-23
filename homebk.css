@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 60px;
+    border: 1px solid red;
+    background-color: #3b2632;
+    /* font-weight: bold; */
+    color: wheat;
+}
+#head{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 30px;
+    /* font-weight: bold; */
+    
+}
+#loginbtn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+#search{
+    width: 100%;
+    height: 450px;
+    border: 1px solid olive;
+    background-image: url('images/foodWallpaper.png');
+    background-size: 100% 450px;
+    color: rgb(241, 241, 239);
+    text-align: center;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(250, 249, 246);
+    position: relative;
+    left: 43%;
+    top: 20%;
+    border-radius: 50%;;
+}
+#logo>span{
+    font-size: 60px;
+    top:34px;
+    left: 50px;
+    position: absolute;
+    color: #893535; 
+}
+#heading{
+    position: relative;
+    left:0%;
+    top: 23%;
+    font-size: 60px;
+}
+#dropdown{
+    width: 50%;
+    position: relative;
+    margin-left: 24%;
+    top:30%;
+}
+select{
+    width: 40%;
+    height: 60px;
+    font-size: 15px;
+}
+#quicksearch{
+    width: 100%;
+    border: 1px solid black;
+    height: 600px;
+}
+#footer{
+    width: 100%;
+    height: 120px;
+    border: 1px solid green;
+}
